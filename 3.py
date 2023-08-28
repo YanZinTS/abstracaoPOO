@@ -14,10 +14,10 @@ class ContaBancaria:
 
 
     def ExibirSaldo(self):
-        print('Meu saldo é de: R$', self.saldo)
+        print(f'Meu saldo é de: R${self.saldo}')
 
 
-PessoaDono = ContaBancaria('Yan', 1200, '0013678')
+PessoaDono = ContaBancaria('Yan', 1200, 5791)
 
 PessoaDono.Depositar(500)
 PessoaDono.Sacar(700)
